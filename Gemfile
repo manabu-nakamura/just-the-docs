@@ -7,5 +7,5 @@ gem "just-the-docs", "0.10.1" # pinned to the current release
 # gem "just-the-docs"        # always download the latest release
 
 group :jekyll_plugins do
-  gem 'jekyll-gfm-admonitions'#, git: 'https://github.com/haacked/jekyll-gfm-admonitions', branch: 'haacked/fix-frozen-string-error'
+  gem 'jekyll-gfm-admonitions', git: 'https://github.com/haacked/jekyll-gfm-admonitions', branch: 'haacked/fix-frozen-string-error'
 end
